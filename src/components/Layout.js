@@ -140,22 +140,8 @@ const Layout = ({ children, hideFooter = false }) => {
               </div>
             </div>
           </div>
-       {/*Policy details*/}
-          <div>
-              <h4 className="font-bold text-fuchsia-400 mb-3 text-lg">Privacy and Policy</h4>
-              <div className="flex space-x-4">
-                <p>📞 <a href="https://merchant.razorpay.com/policy/Qun6p6Mn8FwAPw/terms" className="hover:text-cyan-400">Terms and conditions</a></p>  
-              </div>
-              <div className="flex space-x-4">
-                <p>📞 <a href="https://merchant.razorpay.com/policy/Qun6p6Mn8FwAPw/refund" className="hover:text-cyan-400">Cancellation and Refund</a></p>  
-              </div>
-              <div className="flex space-x-4">
-                <p>📞 <a href="https://merchant.razorpay.com/policy/Qun6p6Mn8FwAPw/privacy" className="hover:text-cyan-400">Privacy Policy</a></p>  
-              </div>
-            </div>
-          </div>
           <div className="mt-8 text-center text-xs text-gray-500">
-            © {new Date().getFullYear()} TechFest | Alagappa Institute of Skill Development,Alagappa University. All rights reserved.
+            © {new Date().getFullYear()} TechFest | Alagappa Institute of Skill Development,Alagappa University. All rights reserved.  <a href="https://merchant.razorpay.com/policy/Qun6p6Mn8FwAPw/terms" className="hover:text-cyan-400">Terms and conditions</a>
           </div>
         </footer>
       )}
