@@ -129,7 +129,7 @@ const Layout = ({ children, hideFooter = false }) => {
               <p>📞 <a href="tel:+919876543210" className="hover:text-cyan-400">+91 8428239386</a></p>
             </div>
 
-            {/* Social */}
+            {/* Student co-ordinator */}
             <div>
               <h4 className="font-bold text-fuchsia-400 mb-3 text-lg"> Student Co-ordinators Number : :</h4>
               <div className="flex space-x-4">
@@ -137,6 +137,20 @@ const Layout = ({ children, hideFooter = false }) => {
               </div>
               <div className="flex space-x-4">
                 <p>📞 <a href="tel:+919384196289" className="hover:text-cyan-400">+91 9384196289</a></p>  
+              </div>
+            </div>
+          </div>
+       {/*Policy details*/}
+          <div>
+              <h4 className="font-bold text-fuchsia-400 mb-3 text-lg">Privacy and Policy</h4>
+              <div className="flex space-x-4">
+                <p>📞 <a href="https://merchant.razorpay.com/policy/Qun6p6Mn8FwAPw/terms" className="hover:text-cyan-400">Terms and conditions</a></p>  
+              </div>
+              <div className="flex space-x-4">
+                <p>📞 <a href="https://merchant.razorpay.com/policy/Qun6p6Mn8FwAPw/refund" className="hover:text-cyan-400">Cancellation and Refund</a></p>  
+              </div>
+              <div className="flex space-x-4">
+                <p>📞 <a href="https://merchant.razorpay.com/policy/Qun6p6Mn8FwAPw/privacy" className="hover:text-cyan-400">Privacy Policy</a></p>  
               </div>
             </div>
           </div>
