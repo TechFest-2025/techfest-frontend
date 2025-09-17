@@ -131,9 +131,9 @@ const Layout = ({ children, hideFooter = false }) => {
 
             {/* Student co-ordinator */}
             <div>
-              <h4 className="font-bold text-fuchsia-400 mb-3 text-lg"> Student Co-ordinators Number : :</h4>
+              <h4 className="font-bold text-fuchsia-400 mb-3 text-lg"> Student Co-ordinators Number : </h4>
               <div className="flex space-x-4">
-                <p>📞 <a href="tel:+916383531918" className="hover:text-cyan-400">+91 6383531918</a></p>  
+                <p>📞 <a href="tel:+916383531918" className="hover:text-cyan-400">+91 9025798836</a></p>  
               </div>
               <div className="flex space-x-4">
                 <p>📞 <a href="tel:+919384196289" className="hover:text-cyan-400">+91 9384196289</a></p>  
