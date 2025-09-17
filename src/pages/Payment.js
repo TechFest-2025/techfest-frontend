@@ -17,7 +17,8 @@ const Payment = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
 
-  const API = process.env.REACT_APP_API || "https://techfest-backend-uhzx.onrender.com";
+  const API =
+    process.env.REACT_APP_API || "https://techfest-backend-uhzx.onrender.com";
 
   useEffect(() => {
     emailjs.init("FYlEzhXlihRYORcD7");
@@ -85,14 +86,16 @@ const Payment = () => {
   }
 
   const handlePayment = async () => {
-    const res = await loadRazorpayScript("https://checkout.razorpay.com/v1/checkout.js");
+    const res = await loadRazorpayScript(
+      "https://checkout.razorpay.com/v1/checkout.js"
+    );
     if (!res) {
       alert("Razorpay SDK failed to load.");
       return;
     }
 
     const options = {
-      key: "rzp_test_lEATLL25Hfw7u8",
+      key: "rzp_test_RIkNLLJ50S4qEe", // ✅ updated Razorpay test key
       amount: totalAmount * 100,
       currency: "INR",
       name: "TechFest 2025",
@@ -105,7 +108,7 @@ const Payment = () => {
           email: state.email,
           phone: state.phone,
           collegeName: state.collegeName,
-          department: state.department, // ✅ FIX: send department to backend
+          department: state.department,
           city: state.city,
           eventName: state.eventName,
           category: state.selectedGame?.category || state.category || "Unknown",
@@ -157,7 +160,7 @@ const Payment = () => {
             fee: totalAmount,
             paymentId: response.razorpay_payment_id,
             collegeName: state.collegeName,
-            department: state.department, // ✅ pass to success page too
+            department: state.department,
             city: state.city,
           },
         });
