@@ -92,7 +92,7 @@ const Payment = () => {
     }
 
     const options = {
-      key: "rzp_test_lEATLL25Hfw7u8",
+      key: "rzp_live_RJ1br1Dx4D0CRR",
       amount: totalAmount * 100,
       currency: "INR",
       name: "TechFest 2025",
