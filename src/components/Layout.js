@@ -126,14 +126,14 @@ const Layout = ({ children, hideFooter = false }) => {
                 Alagappa University, Karaikudi – 630 003, Tamil Nadu, India
               </p>
               <p className="mt-2">📧 <a href="mailto:techfest.au.aisd@gmail.com" className="hover:text-cyan-400">techfest.au.aisd@gmail.com</a></p>
-              <p>📞 <a href="tel:+919876543210" className="hover:text-cyan-400">+91 8428239386</a></p>
+              <p>📞 <a href="tel:+918428239386" className="hover:text-cyan-400">+91 8428239386</a></p>
             </div>
 
             {/* Student co-ordinator */}
             <div>
               <h4 className="font-bold text-fuchsia-400 mb-3 text-lg"> Student Co-ordinators Number : </h4>
               <div className="flex space-x-4">
-                <p>📞 <a href="tel:+916383531918" className="hover:text-cyan-400">+91 9025798836</a></p>  
+                <p>📞 <a href="tel:+919025798836" className="hover:text-cyan-400">+91 9025798836</a></p>  
               </div>
               <div className="flex space-x-4">
                 <p>📞 <a href="tel:+919384196289" className="hover:text-cyan-400">+91 9384196289</a></p>  
